@@ -1,0 +1,29 @@
+{
+  "name": "vanillaquiz",
+  "version": "1.0.0",
+  "description": "Quiz app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dafamousg/VanillaQuiz.git"
+  },
+  "keywords": [
+    "Quiz",
+    "Futurama"
+  ],
+  "author": "Gino Kalyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dafamousg/VanillaQuiz/issues"
+  },
+  "homepage": "https://github.com/dafamousg/VanillaQuiz#readme"
+}

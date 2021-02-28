@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./mainStyle.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./js/main.js" defer></script>
+
+  <title>Quizie</title>
+</head>
+<body>
+  <div class="container">
+    <div class="selector">
+      <h3>IT'S QUIZ TIME !</h3> 
+      <p>See how many correct answers you can get!</p>
+       <hr>
+        <button class="startBtn1" onclick="getData(1)">START THE Futurama QUIZ!</button>
+        <button class="startBtn2" onclick="getData(2)">START THE Avatar QUIZ!</button>
+      </div>
+    <section>
+      <h3></h3>
+      <div class="question-block">
+
+      </div>
+      <div class="counter">
+        <p>Question: <span class="number">0</span><span class="maxNum">/0</span></p>
+      </div>
+    </section>
+  </div>
+  <!-- <div class="quizContainer">
+    <div class="questionContainer">
+      <div id="question">#Question</div>
+      <div class="answerContainer">
+        <ul>
+          <button>Answer1</button>
+          <button>Answer2</button>
+          <br>
+          <button>Answer3</button>
+          <button>Answer4</button>
+        </ul>
+      </div>
+      <button>Next</button>
+    </div>
+  </div> -->
+</body>
+</html>
